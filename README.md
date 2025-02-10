@@ -1,5 +1,5 @@
 # INFO4290
-Repository for the Group Github Assignment in INFO 4290 S10 and S50
+Repository for the Github Assignment - Group - Part 2 in INFO 4290 S10 and S50
 
 Purpose: Design and implement another Java class named BookShelf which has an ArrayList data member named bookList to store books. 
 The class should have suitable constructors, get/set methods, and the toString method, 
