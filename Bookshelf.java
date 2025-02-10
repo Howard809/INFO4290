@@ -53,5 +53,24 @@ public class Bookshelf {
 		return bookList.contains(book);
 	}
 	
-	
+	public static void main (String[] args) {
+		/* Main Method */
+		Bookshelf shelf = new Bookshelf();
+		Book book1 = new Book("Jojo's Bizarre Adventure", 9);
+		Book book2 = new Book("The Empire Strikes Back", 15);
+		Book book3 = new Book("The Art of War", 15);
+		Book book4 = new Book("Guiness Book of Records", 19);
+		Book book5 = new Book("Diary of a Wimpy Kid", 6);
+		shelf.addBook(book1);
+		shelf.addBook(book2);
+		shelf.addBook(book3);
+		shelf.addBook(book4);
+		shelf.addBook(book5);
+		System.out.println(shelf); //prints the whole shelf
+		Sorting.main(); // sorts the shelf and prints it in reverse order
+		System.out.println("Book 3 has been checked out.");
+		shelf.removeBook(book3); //removes the third book from the shelf
+		System.out.println(shelf); //prints the updated shelf
+		System.out.println("Is book 3, 'The Art of War' available? "+shelf.findBook(book3)); //searches for the third book, should give "false" as the result
+	}
 }
