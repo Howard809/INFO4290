@@ -1,7 +1,7 @@
 /*Bookshelf.java
  *Author: Howard Chen - 100382934
  *Date: February 09, 2025
- *Main Code portion for the Git Exercise - Group - Part 1
+ *Main Code portion for the Git Exercise - Group - Part 2
 */
 
 // Purpose: Design and implement another Java class named BookShelf which has an ArrayList data
